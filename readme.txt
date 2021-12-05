@@ -1,7 +1,7 @@
 # Customizer Disabler
 
 Contributors: joppuyo, peterdog, parallelus, pmgllc
-Tags: disable, customizer, customiser, remove
+Tags: disable, customizer, customiser, remove, hide, disabler
 Requires at least: 5.0
 Tested up to: 5.8
 Requires PHP: 7.0
