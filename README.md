@@ -18,6 +18,21 @@ The code is based on [Customizer Remove All Parts](https://github.com/parallelus
 * WordPress 5.0 or later
 * PHP 7.0 or later
 
+## Installation
+
+### WordPress plugin directory
+
+The plugin [is available](https://wordpress.org/plugins/customizer-disabler/) in the WordPress plugin directory.
+
+### Composer
+
+The plugin can be installed using Composer using the [wpackagist.org](https://wpackagist.org/) repository.
+
+```
+composer require wpackagist-plugin/customizer-disabler
+```
+
+
 ## License
 
 GPL v2 or later
