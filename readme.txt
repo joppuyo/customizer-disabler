@@ -7,7 +7,7 @@ Tested up to: 5.8
 Requires PHP: 7.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Stable Tag: 2.0.0
+Stable Tag: 2.1.0
 
 Completely disable Customizer on your WordPress site.
 
@@ -23,6 +23,9 @@ The code is based on [Customizer Remove All Parts](https://github.com/parallelus
 2. Activate the plugin via the plugins admin page
 
 ## Changelog
+
+### 2.1.0 (2021-12-07)
+* Feature: add icon
 
 ### 2.0.0 (2021-12-07)
 * Breaking change: change plugin slug to `customizer-disabler` instead of `disable-customizer` since the latter is already in use to comply with wordpress.org requirements
