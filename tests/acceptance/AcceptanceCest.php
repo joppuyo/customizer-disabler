@@ -42,7 +42,7 @@ class AcceptanceCest
     public function iActivatePlugin(AcceptanceTester $I)
     {
         $I->amOnPluginsPage();
-        $I->activatePlugin('customizer-disabler');
+        $I->activatePlugin('disable-customizer');
     }
 
     public function iCantSeeCustomizeInAppearanceMenu(AcceptanceTester $I)
