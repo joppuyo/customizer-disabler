@@ -24,8 +24,10 @@ The code is based on [Customizer Remove All Parts](https://github.com/parallelus
 
 ## Changelog
 
-### 1.2.0 (2021-12-05)
+### 2.0.0 (2021-12-07)
+* Breaking change: change plugin slug to `customizer-disabler` instead of `disable-customizer` since the latter is already in use to comply with wordpress.org requirements
 * Feature: Release on wordpress.org
+* Feature: Remove update checker
 
 ### 1.1.0 (2021-10-03)
 * Feature: Add update checker
