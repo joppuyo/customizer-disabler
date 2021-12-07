@@ -1,5 +1,5 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 
-Files: composer.json composer.lock tests/_support/* tests/_data/* readme.txt .distignore
+Files: composer.json composer.lock tests/_support/* tests/_data/* readme.txt .distignore .wordpress-org/*
 Copyright: 2021 Johannes Siipola
 License: CC0-1.0
