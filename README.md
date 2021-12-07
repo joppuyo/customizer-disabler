@@ -32,7 +32,6 @@ The plugin can be installed using Composer using the [wpackagist.org](https://wp
 composer require wpackagist-plugin/customizer-disabler
 ```
 
-
 ## License
 
 GPL v2 or later
