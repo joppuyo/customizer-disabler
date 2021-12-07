@@ -1,4 +1,4 @@
-# Customizer Disabler
+# Disable Customizer
 
 Contributors: joppuyo, peterdog, parallelus, pmgllc
 Tags: disable, customizer, customiser, remove, hide, disabler

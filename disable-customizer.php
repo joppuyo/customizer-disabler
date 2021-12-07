@@ -5,7 +5,7 @@
 // SPDX-FileCopyrightText: 2015 Jesse Petersen and Andy Wilkerson
 
 /*
- * Plugin name: Customizer Disabler
+ * Plugin name: Disable Customizer
  * Description: Completely turn off customizer on your site
  * Version: 1.2.0
  * Author: Johannes Siipola

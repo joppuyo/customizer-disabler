@@ -3,7 +3,7 @@ SPDX-FileCopyrightText: 2021 Johannes Siipola
 SPDX-License-Identifier: CC0-1.0
 -->
 
-# Customizer Disabler
+# Disable Customizer
 
 ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/joppuyo/customizer-disabler/Build?logo=github)
 ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/joppuyo/customizer-disabler/Test?label=tests&logo=github)
