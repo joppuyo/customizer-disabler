@@ -24,7 +24,7 @@ The code is based on [Customizer Remove All Parts](https://github.com/parallelus
 * The automated tests also ensure that the plugin works in PHP 7 and 8. The original plugin was only tested with PHP 5.
 * Customizer Remove All Parts was removed from the plugin directory due to being "unused", presumably since it hasn't been updated in 5 years. Disable Customizer is available in the plugin directory so it can be easily installed and kept up to date
 
-In the process, I've dropped support for old versions of WordPress and PHP. I would have liked the continue supporting these but supporting a very wide range of WordPress and PHP versions becomes increasingly difficult. The upside is that since the tests are automated, I can be very certain that the versions claim to be supported are actually so. According to [wordpress.org statistics](https://wordpress.org/about/stats/) WordPress 5.0 and PHP 7 should cover around 90% users.
+In the process, I've dropped support for old versions of WordPress and PHP. I would have liked the continue supporting these but supporting a very wide range of WordPress and PHP versions becomes increasingly difficult. The upside is that since the tests are automated, I can be very certain that the versions claim to be supported are actually so. According to [wordpress.org statistics](https://wordpress.org/about/stats/) WordPress 5.0 and PHP 7 should cover around 90% of WordPress users.
 
 ## Installation
 
