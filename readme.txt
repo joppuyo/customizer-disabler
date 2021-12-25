@@ -28,7 +28,7 @@ In the process, I've dropped support for old versions of WordPress and PHP. I wo
 
 ### Support the plugin
 
-Maintaining a WordPress plugin is a lot of work. If you like the plugin, please consider rating it on [WordPress.org](https://wordpress.org/support/plugin/disable-drop-cap/reviews/#new-post). Thank you!
+Maintaining a WordPress plugin is a lot of work. If you like the plugin, please consider rating it on [WordPress.org](https://wordpress.org/support/plugin/customizer-disabler/reviews/#new-post). Thank you!
 
 ## Installation
 

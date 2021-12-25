@@ -47,6 +47,10 @@ composer require wpackagist-plugin/customizer-disabler
 
 After the installation is done, simply activate the plugin to disable Customizer.
 
+## Support the plugin
+
+Maintaining a WordPress plugin is a lot of work. If you like the plugin, please consider rating it on [WordPress.org](https://wordpress.org/support/plugin/customizer-disabler/reviews/#new-post). Thank you!
+
 ## License
 
 GPL v2 or later
