@@ -7,7 +7,7 @@ Tested up to: 5.8
 Requires PHP: 7.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Stable Tag: 2.1.0
+Stable Tag: 2.2.0
 
 Completely disable Customizer on your WordPress site.
 
@@ -37,6 +37,10 @@ Maintaining a WordPress plugin is a lot of work. If you like the plugin, please 
 3. There's no step three. Activating the plugin disables Customizer automatically.
 
 ## Changelog
+
+### 2.2.0 (2021-12-25)
+* Feature: Add a namespace to the class to prevent potential conflicts
+* Feature: New and improved icon
 
 ### 2.1.0 (2021-12-07)
 * Feature: add icon
