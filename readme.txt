@@ -26,6 +26,10 @@ The code is based on [Customizer Remove All Parts](https://github.com/parallelus
 
 In the process, I've dropped support for old versions of WordPress and PHP. I would have liked the continue supporting these but supporting a very wide range of WordPress and PHP versions becomes increasingly difficult. The upside is that since the tests are automated, I can be very certain that the versions claim to be supported are actually so. According to [wordpress.org statistics](https://wordpress.org/about/stats/) WordPress 5.0 and PHP 7 should cover around 90% of WordPress users.
 
+### Support the plugin
+
+Maintaining a WordPress plugin is a lot of work. If you like the plugin, please consider rating it on [WordPress.org](https://wordpress.org/support/plugin/disable-drop-cap/reviews/#new-post). Thank you!
+
 ## Installation
 
 1. Install the plugin.
