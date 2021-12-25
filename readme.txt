@@ -30,6 +30,12 @@ In the process, I've dropped support for old versions of WordPress and PHP. I wo
 
 Maintaining a WordPress plugin is a lot of work. If you like the plugin, please consider rating it on [WordPress.org](https://wordpress.org/support/plugin/customizer-disabler/reviews/#new-post). Thank you!
 
+If you are interested, you can also check out my other plugins:
+
+* [Disable Media Pages](https://wordpress.org/plugins/disable-media-pages/)
+* [Disable Drop Cap](https://wordpress.org/plugins/disable-drop-cap/)
+* [ACF Image Aspect Ratio Crop](https://wordpress.org/plugins/acf-image-aspect-ratio-crop/)
+
 ## Installation
 
 1. Install the plugin.
