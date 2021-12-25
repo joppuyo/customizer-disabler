@@ -36,6 +36,12 @@ Maintaining a WordPress plugin is a lot of work. If you like the plugin, please 
 2. Activate the plugin via the plugins admin page.
 3. There's no step three. Activating the plugin disables Customizer automatically.
 
+## Frequently Asked Questions
+
+### Is there a GitHub repo?
+
+Yes, you can find the plugin on GitHub [here](https://github.com/joppuyo/customizer-disabler).
+
 ## Changelog
 
 ### 2.2.0 (2021-12-25)
