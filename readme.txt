@@ -7,7 +7,7 @@ Tested up to: 5.8
 Requires PHP: 7.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Stable Tag: 2.2.0
+Stable Tag: 2.2.1
 
 Completely disable Customizer on your WordPress site.
 
@@ -49,6 +49,9 @@ If you are interested, you can also check out my other WordPress plugins:
 Yes, you can find the plugin on GitHub [here](https://github.com/joppuyo/customizer-disabler).
 
 ## Changelog
+
+### 2.2.1 (2021-12-26)
+* Fix: Update readme
 
 ### 2.2.0 (2021-12-25)
 * Feature: Add a namespace to the class to prevent potential conflicts
