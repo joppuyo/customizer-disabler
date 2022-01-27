@@ -5,16 +5,17 @@
 
 class AcceptanceCest
 {
-    public function _before(AcceptanceTester $I)
+    public function iDoSetup(AcceptanceTester $I)
     {
         $I->cli(['core', 'update-db']);
         $I->cli(['theme', 'install', 'twentynineteen']);
         $I->cli(['theme', 'activate', 'twentynineteen']);
-        $I->loginAsAdmin();
     }
     
     public function iClickAppearanceInMenu(AcceptanceTester $I)
     {
+        $I->loginAsAdmin();
+        $I->saveSessionSnapshot('login');
         $I->amOnAdminPage('index.php');
         $I->moveMouseOver('.menu-icon-appearance');
         $I->see('Customize');
@@ -25,6 +26,7 @@ class AcceptanceCest
 
     public function iClickAppearanceInTopBar(AcceptanceTester $I)
     {
+        $I->loadSessionSnapshot('login');
         $I->amOnPage('/');
         $I->see('Customize');
         $I->click('Customize');
@@ -34,6 +36,7 @@ class AcceptanceCest
 
     public function iClickCustomizerOnMenusPage(AcceptanceTester $I)
     {
+        $I->loadSessionSnapshot('login');
         $I->amOnAdminPage('nav-menus.php');
         $I->see('Manage with Live Preview');
         $I->click('Manage with Live Preview');
@@ -43,12 +46,14 @@ class AcceptanceCest
 
     public function iActivatePlugin(AcceptanceTester $I)
     {
+        $I->loadSessionSnapshot('login');
         $I->amOnPluginsPage();
         $I->activatePlugin('customizer-disabler');
     }
 
     public function iCantSeeCustomizeInAppearanceMenu(AcceptanceTester $I)
     {
+        $I->loadSessionSnapshot('login');
         $I->amOnAdminPage('edit.php');
         $I->moveMouseOver('.menu-icon-appearance');
         $I->dontSee('Customize');
@@ -56,18 +61,21 @@ class AcceptanceCest
 
     public function iCantSeeCustomizeInTopBar(AcceptanceTester $I)
     {
+        $I->loadSessionSnapshot('login');
         $I->amOnPage('/');
         $I->dontSee('Customize');
     }
 
     public function iDontSeeCustomizerOnMenusPage(AcceptanceTester $I)
     {
+        $I->loadSessionSnapshot('login');
         $I->amOnAdminPage('nav-menus.php');
         $I->dontSee('Manage with Live Preview');
     }
 
     public function iCantAccessCustomizerDirectly(AcceptanceTester $I)
     {
+        $I->loadSessionSnapshot('login');
         $I->amOnAdminPage('customize.php');
         $I->see('The Customizer is currently disabled.');
         $I->dontSee('You are customizing');
