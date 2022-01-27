@@ -15,13 +15,13 @@ class AcceptanceCest
     public function iClickAppearanceInMenu(AcceptanceTester $I)
     {
         $I->loginAsAdmin();
-        $I->saveSessionSnapshot('login');
         $I->amOnAdminPage('index.php');
         $I->moveMouseOver('.menu-icon-appearance');
         $I->see('Customize');
         $I->click('.hide-if-no-customize');
         $I->waitForText('You are customizing');
         $I->see('You are customizing');
+        $I->saveSessionSnapshot('login');
     }
 
     public function iClickAppearanceInTopBar(AcceptanceTester $I)
