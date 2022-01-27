@@ -8,7 +8,7 @@ class AcceptanceCest
     public function iDoSetup(AcceptanceTester $I)
     {
         $I->cli(['core', 'update-db']);
-        $I->cli(['config', 'set', 'AUTOMATIC_UPDATER_DISABLED', 'false', '--raw']);
+        $I->cli(['config', 'set', 'AUTOMATIC_UPDATER_DISABLED', 'true', '--raw']);
         $I->cli(['theme', 'install', 'twentynineteen']);
         $I->cli(['theme', 'activate', 'twentynineteen']);
     }
