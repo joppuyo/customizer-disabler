@@ -8,9 +8,11 @@ class AcceptanceCest
     public function _before(AcceptanceTester $I)
     {
         $I->cli(['core', 'update-db']);
+        $I->cli(['theme', 'install', 'twentynineteen']);
+        $I->cli(['theme', 'activate', 'twentynineteen']);
         $I->loginAsAdmin();
     }
-
+    
     public function iClickAppearanceInMenu(AcceptanceTester $I)
     {
         $I->amOnAdminPage('index.php');
