@@ -3,11 +3,11 @@
 Contributors: joppuyo, peterdog, parallelus, pmgllc
 Tags: disable, customizer, customiser, remove, hide, disabler
 Requires at least: 5.0
-Tested up to: 5.8
+Tested up to: 5.9
 Requires PHP: 7.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Stable Tag: 2.2.1
+Stable Tag: 2.2.2
 
 Completely disable Customizer on your WordPress site.
 
@@ -49,6 +49,9 @@ If you are interested, you can also check out my other WordPress plugins:
 Yes, you can find the plugin on GitHub [here](https://github.com/joppuyo/customizer-disabler).
 
 ## Changelog
+
+### 2.2.2 (2022-01-28)
+* Fix: Bump supported WordPress version to 5.9
 
 ### 2.2.1 (2021-12-26)
 * Fix: Update readme
