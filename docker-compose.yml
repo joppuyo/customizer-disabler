@@ -33,6 +33,7 @@ services:
       - TEST_SITE_ADMIN_EMAIL
       - TEST_SITE_ADMIN_USERNAME
       - TEST_SITE_ADMIN_PASSWORD
+      - TEST_SITE_DB_DSN
     volumes:
       - wordpress:/var/www/html
       # - ./wp-content:/var/www/html/wp-content
