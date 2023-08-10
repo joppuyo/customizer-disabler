@@ -17,10 +17,8 @@ class AcceptanceCest
     {
         $I->loginAsAdmin();
         $I->amOnAdminPage('index.php');
-        $I->moveMouseOver('.menu-icon-appearance');
-        $I->wait(1);
+        $I->click('a.menu-icon-appearance');
         $I->see('Customize');
-        $I->wait(1);
         $I->click('.hide-if-no-customize');
         $I->waitForText('You are customizing');
         $I->see('You are customizing');
@@ -58,7 +56,7 @@ class AcceptanceCest
     {
         $I->loadSessionSnapshot('login');
         $I->amOnAdminPage('edit.php');
-        $I->moveMouseOver('.menu-icon-appearance');
+        $I->click('a.menu-icon-appearance');
         $I->dontSee('Customize');
     }
 
