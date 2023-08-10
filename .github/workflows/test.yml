@@ -11,18 +11,6 @@ jobs:
     strategy:
       matrix:
         include:
-          # 5.0
-         - wp_docker_tag: 5.0-php7.0-apache
-           php_version: 7.0
-         - wp_docker_tag: 5.0-php7.1-apache
-           php_version: 7.1
-          # 5.1
-         - wp_docker_tag: 5.1-php7.1-apache
-           php_version: 7.1
-         - wp_docker_tag: 5.1-php7.2-apache
-           php_version: 7.2
-         - wp_docker_tag: 5.1-php7.3-apache
-           php_version: 7.3
           # 5.2
          - wp_docker_tag: 5.2-php7.1-apache
            php_version: 7.1
@@ -96,6 +84,13 @@ jobs:
            # 6.2
          - wp_docker_tag: 6.2-php8.0-apache
            php_version: '8.0'
+           # 6.3
+         - wp_docker_tag: 6.3-php8.0-apache
+           php_version: '8.0'
+         - wp_docker_tag: 6.3-php8.1-apache
+           php_version: '8.1'
+         - wp_docker_tag: 6.3-php8.2-apache
+           php_version: '8.2'
       fail-fast: false
     env:
       WP_DOCKER_TAG: ${{ matrix.wp_docker_tag }}
