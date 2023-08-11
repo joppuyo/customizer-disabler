@@ -9,8 +9,8 @@ SPDX-License-Identifier: CC0-1.0
 ![WordPress Plugin Required PHP Version](https://img.shields.io/wordpress/plugin/required-php/customizer-disabler)
 ![WordPress Plugin: Required WP Version](https://img.shields.io/wordpress/plugin/wp-version/customizer-disabler?logo=wordpress)
 ![WordPress Plugin: Tested WP Version](https://img.shields.io/wordpress/plugin/tested/customizer-disabler?logo=wordpress)
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/joppuyo/customizer-disabler/Build?logo=github)
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/joppuyo/customizer-disabler/Test?label=tests&logo=github)
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/joppuyo/customizer-disabler/build.yml?branch=master&logo=github)
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/joppuyo/customizer-disabler/test.yml?branch=master&logo=github&label=tests)
 [![Actively Maintained](https://img.shields.io/badge/Maintenance%20Level-Actively%20Maintained-green.svg)](https://gist.github.com/cheerfulstoic/d107229326a01ff0f333a1d3476e068d)
 [![REUSE status](https://api.reuse.software/badge/github.com/joppuyo/customizer-disabler)](https://api.reuse.software/info/github.com/joppuyo/customizer-disabler)
 
