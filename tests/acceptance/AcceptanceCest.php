@@ -55,6 +55,7 @@ class AcceptanceCest
     public function iCantSeeCustomizeInAppearanceMenu(AcceptanceTester $I)
     {
         $I->loadSessionSnapshot('login');
+        $I->amOnPage('/');
         $I->amOnAdminPage('edit.php');
         $I->click('a.menu-icon-appearance');
         $I->dontSee('Customize');
